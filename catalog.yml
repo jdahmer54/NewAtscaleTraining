@@ -1,0 +1,6 @@
+version: 1
+unique_name: NewAtscaleTraining
+object_type: catalog
+label: NewAtscaleTraining
+aggressive_agg_promotion: false
+build_speculative_aggs: true

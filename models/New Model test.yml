@@ -1,0 +1,15 @@
+unique_name: New Model test
+object_type: model
+label: New Model test
+metrics:
+  - unique_name: m_factinternetsales_orderquantity_sum
+    folder: Sales Metrics
+relationships:
+  - unique_name: factinternetsales_orderdatekey_to_Y_Q_M_D_month_id
+    from:
+      dataset: factinternetsales
+      join_columns:
+        - orderdatekey
+    to:
+      dimension: Y_Q_M_D
+      level: day_ID
